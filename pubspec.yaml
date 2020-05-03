@@ -1,0 +1,16 @@
+name: nebby_dart_utils
+description: Just some utils to simplify dart-coding.
+version: 1.0.0
+homepage: https://github.com/Nebulino/NebbyDartUtils
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+#dependencies:
+#  path: ^1.6.0
+
+dev_dependencies:
+  pedantic: ^1.9.0
+  test: ^1.14.3
+  json_serializable: ^3.3.0
+  build_runner: ^1.9.0
