@@ -1,6 +1,6 @@
 name: nebby_dart_utils
 description: Just some utils to simplify dart-coding.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/Nebulino/NebbyDartUtils
 
 environment:

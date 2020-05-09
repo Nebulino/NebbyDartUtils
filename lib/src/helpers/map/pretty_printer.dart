@@ -1,7 +1,7 @@
-/**
- * NebbyDartUtils- Just some utilities for an easier coding.
- * Copyright (c) 2020 Nebulino
- */
+//                                                            //
+// NebbyDartUtils - Just some utilities for an easier coding. //
+//               Copyright (c) 2020 Nebulino                  //
+//                                                            //
 
 part of map_helpers;
 
@@ -15,7 +15,7 @@ class PrettyPrinter {
     return JsonEncoder.withIndent(indent).convert(object);
   }
 
-  /// Directly prints a Serializable object.
+  /// Directly pretty-prints a Serializable object.
   static void prettyPrint(
     Map<String, dynamic> object, {
     String indent = '  ',
@@ -24,5 +24,23 @@ class PrettyPrinter {
       object,
       indent: indent,
     ));
+  }
+
+  /// It returns the pretty-fied String Serializable object/Json.
+  /// Used for longer objects.
+  static String stringPrettyfy(
+    String input, {
+    String indent = '',
+  }) {
+    return JsonEncoder.withIndent(indent).convert(JsonDecoder().convert(input));
+  }
+
+  /// Directly pretty-prints a long Serializable object/Json.
+  /// Used for longer objects.
+  static void stringPrettyPrint(String input, {String indent = '  '}) {
+    stringPrettyfy(
+      input,
+      indent: indent,
+    ).split('\n').forEach((element) => print(element));
   }
 }

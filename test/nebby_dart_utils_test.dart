@@ -1,7 +1,7 @@
-/**
- * NebbyDartUtils- Just some utilities for an easier coding.
- * Copyright (c) 2020 Nebulino
- */
+//                                                            //
+// NebbyDartUtils - Just some utilities for an easier coding. //
+//               Copyright (c) 2020 Nebulino                  //
+//                                                            //
 
 import 'package:nebby_dart_utils/helpers.dart';
 import 'package:test/test.dart';

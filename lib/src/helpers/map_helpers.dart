@@ -1,7 +1,7 @@
-/**
- * NebbyDartUtils- Just some utilities for an easier coding.
- * Copyright (c) 2020 Nebulino
- */
+//                                                            //
+// NebbyDartUtils - Just some utilities for an easier coding. //
+//               Copyright (c) 2020 Nebulino                  //
+//                                                            //
 
 /// MapHelpers Library.
 /// This library contains some helpers for a Map object () in dart.
